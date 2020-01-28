@@ -1,0 +1,13 @@
+1) Проверить наличие Node.JS/npm, sass, pug и пр.
+2) Проверить наличие Gulp и всех необходимых для него плагинов
+3) В каталоге Blocks создавать подкаталоги для каждого блока (Подкаталоги подкатологов допускаются), в подкаталогах Blocks хранить pug, scss (или sass) и js. В папке js хранить сторонние плагины, также в нем появится bundle.js, объединяющий весь код блоков.
+4) В папке pug писать код страниц, в папке sass-стили. Base-каталог для sass с переменными и прочим базовым кодом. В подкаталоге components-кнопки и другие компоненты.  
+
+
+
+
+git init
+git add your_file
+git commit -m "first commit"
+git remote add origin https://github.com/you_repository/you_project
+git push -u origin master
